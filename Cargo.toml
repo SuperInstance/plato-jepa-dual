@@ -1,0 +1,10 @@
+[package]
+name = "plato-jepa-dual"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Dual-database JEPA: separate perception and prediction vector spaces with cross-database mapping"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+uuid = { version = "1", features = ["v4", "serde"] }
